@@ -1,0 +1,31 @@
+.section5 {
+    padding: 0 61px;
+    
+    .flex {
+        background: #F8F8F8;
+        border-radius: 20px;
+        justify-content: space-between;
+
+        .div1 {
+            h3 {
+                width: 541px;
+                font-weight: 600;
+                font-size: 40px ;
+                color: #000000;
+                padding-bottom: 50px;
+            }
+            .flex1{
+                width: 336px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .link_b{
+                    padding: 8px 10px;
+                    border-radius: 8px;
+                    border: 1.2px solid  #0F0F54;
+                }
+            }
+
+        }
+    }
+}

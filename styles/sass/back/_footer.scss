@@ -1,0 +1,57 @@
+.footer {
+    padding: 120px 150px 60px 0;
+    .flex {
+        align-items: flex-start;
+        justify-content: space-between;
+       .flexm{
+        display: flex;
+        gap: 150px;
+        .brand {
+            img {
+                padding-bottom: 50px;
+            }
+        }
+
+        ul {
+            li {
+                padding-bottom: 20px;
+                a{
+                    color: #000000;
+                    font-size: 18px;
+                }
+                a:hover{
+                    color: darkblue;
+                }
+            }
+        }
+       }
+
+        .tarmoq {
+            .ijtm{
+                width: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .flexx {
+                display: flex;
+                width: 200px;
+                padding-bottom: 30px;
+
+                .tel {
+                    .a{
+                    color: #000000;
+                    font-size: 20px;
+                    }
+                    a:hover{
+                        color: darkblue;
+                    }
+                }
+            }
+
+            .ijtm {
+                width: 110px;
+            }
+        }
+    }
+}
